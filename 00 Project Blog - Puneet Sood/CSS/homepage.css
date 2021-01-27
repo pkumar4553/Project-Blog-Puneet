@@ -1,0 +1,42 @@
+.main-page{
+    display: grid;
+    grid-template-columns:1fr, 1fr,1fr, 1fr ;
+    grid-template-rows: auto ;
+    grid-area: "hd hd hd hd"
+    "main main main main"
+    "main main main main"
+    "ft ft ft ft";
+    border-color: lawngreen;
+    border-width: 5px;
+    border-style:solid;
+}
+
+
+
+
+.header {
+    grid-area: hd;
+    background-color: aqua;
+    border-color: red;
+    border-width: 5px;
+    
+    
+}
+
+
+.articles {
+    grid-area: main;
+    display: flex;
+    background-color: tomato;
+    border-color: black;
+    border-width: 5px;
+   
+}
+
+.footer {
+    grid-area: ft;
+    background-color: pink;
+    border-color: yellow;
+    border-width: 5px;
+   
+}
