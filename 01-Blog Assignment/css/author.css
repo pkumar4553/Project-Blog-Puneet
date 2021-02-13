@@ -1,0 +1,73 @@
+.wrapper-blopost {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.author-container{
+    display: grid;
+    grid-template-rows:auto auto ; 
+    grid-gap: 90px;
+ }
+
+ .author-text{
+    background: var(--light);
+    box-shadow: var(--shadow);
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    padding: 3rem;
+    color: var(--dark);
+    text-align:center;
+    word-spacing: .15rem;
+    width: 60%;
+    letter-spacing: 3px;
+}
+.author-text h1{
+    text-transform: uppercase;
+    padding: 3rem;
+    letter-spacing: 3px;
+}
+
+.author-text p{
+    margin-right: 10rem;
+    margin-left: 10rem;
+}
+
+.author-info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-direction: column;
+    justify-self: center;
+    text-align: center;
+    box-shadow: var(--shadow);
+    width: 60%;
+    padding: 3rem;
+    
+}
+
+.avatar{
+width: 70px;
+border-radius: 70%;
+box-shadow: var(--shadow);
+
+}
+.author-head{
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.bio-text{
+
+    box-shadow: none;
+    letter-spacing: 2px;
+    margin-right: 8%;
+    margin-left: 8%;
+    padding-top: 1rem;
+
+    
+
+
+
+} 
